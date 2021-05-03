@@ -1,0 +1,140 @@
+.header1 {
+    background-color: var(--pri);
+    padding: 1rem 0;
+    a {
+      color: white;
+      margin-right: 0.5rem;
+    }
+    i {
+      margin-right: 3px;
+    }
+  }
+  .header2 {
+    background-color: #f2f2f2;
+    .active-nav {
+      background-color: var(--sec);
+      a {
+        color: white;
+      }
+    }
+  }
+  .header-nav > li {
+    margin-left: 0.5rem;
+    font-weight: 700;
+    padding: 2rem 1rem;
+  }
+  
+  // hero sec
+  
+  .hero-div {
+    height: 100vh;
+    background: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0.048),
+        rgba(255, 255, 255, 0.007)
+      ),
+      url("../media/banner-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    div {
+      padding-top: 13rem;
+      padding-left: 12%;
+    }
+    div > * {
+      margin-bottom: 2rem;
+    }
+  }
+  
+  // services-sec
+  .services-card {
+    padding: 1.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 7px;
+    .services-card-svg img {
+      height: 5rem;
+    }
+  
+    h6 {
+      font-weight: 800;
+      margin-top: 1rem;
+    }
+  }
+  
+  // solution sec
+  .solution-sec {
+    article {
+      max-width: 75%;
+      margin: 0 auto;
+    }
+  }
+  
+  // whoWe-sec
+  
+  .whoWe-card {
+    * {
+      margin-bottom: 1rem;
+    }
+    img {
+      height: 4rem;
+    }
+  }
+  // quote-sec
+  .quote-sec {
+    background-color: var(--pri);
+    color: white;
+    padding: 2rem 0;
+    p {
+      color: white;
+      line-height: 1;
+    }
+    a {
+      color: white;
+      border: 1px solid white;
+    }
+  }
+  
+  // leader-sec
+  .leader-sec {
+  }
+  
+  // client-sec
+  
+  .client-sec {
+    .client-logos {
+      a {
+        flex: 0 1 15%;
+        margin: 1%;
+        filter: brightness(10%);
+        // backdrop-filter: blur(20rem);
+        opacity: 0.5;
+      }
+    }
+  }
+  
+  // footer
+  
+  .footer {
+    background-color: #343a3f;
+    padding: 3rem 0;
+    color: white;
+    li {
+      margin-top: 1rem;
+      margin-right: 1rem;
+    }
+  
+    li a {
+      color: rgb(133, 130, 130);
+    }
+    address a {
+      color: rgb(202, 199, 199);
+    }
+    small {
+      margin-top: 2rem;
+      text-align: center;
+      color: rgb(139, 136, 136);
+      span {
+        color: rgb(209, 206, 206);
+        font-weight: 700;
+      }
+    }
+  }
